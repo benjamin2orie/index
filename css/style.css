@@ -1,0 +1,177 @@
+header .container{
+    background-color: #c6c6c6;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    height: 78px;
+    border-bottom: blue 5px solid;
+    overflow: hidden;
+
+    
+    
+    
+}
+header .conduct{
+    float: right;
+
+}
+header .fa-bandcamp{
+    margin-top: 30px;
+}
+header #btn{
+    background-color: blue;
+    height: 45px;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+header .fa-facebook-square{
+    color: blue;
+    width: 200px;
+}
+
+
+header .fa-home{
+
+    height: 23px;
+    margin-top: 30px;
+    width: 200px;
+}
+.wolf{
+    background: #c6c6c6;
+    margin: 2px;
+    padding: 20px;
+    overflow: hidden;
+}
+.wolf #idom{
+   float: left;
+   width: 120px; 
+   background: blue;
+   color: #ffffff;
+   font-size: 20px;
+   height: 34px;
+   border: none;
+   margin-top: 23px;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   overflow: hidden;
+
+}
+.wolf #adom{
+    float: right;
+    width: 120px; 
+   background: blue;
+   color: #ffffff;
+   font-size: 20px;
+   height: 34px;
+   border: none;
+   margin-top: 23px;
+   border-radius: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   overflow: hidden;
+
+}
+.wolf #sac{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: 220px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: blue 2px solid
+    
+}
+    .wolf #rat{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+input[type="text"]{
+    width: 45%;
+    padding: 12px 12px;
+    overflow: hidden;
+    margin: 12px;
+    box-sizing: border-box;
+    border: blue 2px solid;
+}
+input[type="date"]{
+    width: 45%;
+    padding: 12px 12px;
+    overflow: hidden;
+    margin: 12px;
+    box-sizing: border-box;
+    border: blue 2px solid;
+}
+.wolf #set{
+    width: 45%;
+    padding: 12px 12px;
+    overflow: hidden;
+    margin: 12px;
+    box-sizing: border-box;
+    border: blue 2px solid;
+}
+.jet{
+    width: 126px;
+    background: blue;
+    color: #ffffff;
+    font-size: 16px;
+    height: 55px;
+    border: none;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+/* media queries */
+@media (max-width:768px){
+    header .container,
+    header .fa-facebook-square,
+    header .fa-home,
+    header .conduct{
+        display: contents;
+        width: 200%;
+        float: none;
+    }
+    .wolf{
+        margin-top: 23px;
+        overflow: hidden;
+        float: none;
+    }
+    .wolf #set{
+        width: 200px;
+        padding: 6px 6px;
+        margin: 8px;
+        overflow: hidden;
+    }
+    input[type="date"]{
+        width: 200px;
+        padding: 6px 6px;
+        margin: 8px;
+        overflow: hidden;
+    }
+    input[type="text"]{
+        width: 200px;
+        padding: 6px 6px;
+        margin: 8px;
+        overflow: hidden;
+    }
+    }
+
+    
+
+
+
+
+
+
+/* 
+input[type="text"]{
+    width: 100%;
+    padding: 12px 12px;
+    margin: 12px;
+    box-sizing: border-box;
+    border: orangered 2px solid; */
